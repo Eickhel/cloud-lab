@@ -14,10 +14,16 @@ Dado este proyecto en NodeJS, crea su Dockerfile sabiendo que nos han pedido com
 
 Sube la imagen de Docker a DockerHub.
 
+https://cloud.docker.com/repository/docker/mensec/cloud-lab
+
 ## Práctica 3
 
 Automatiza el proceso de creación de la imagen de Docker y su subida a Docker Hub después de cada cambio en el repositorio.
 
+https://travis-ci.org/Eickhel/cloud-lab
+
 ## Práctica 4
 
 Crea un servidor y despliega la imagen de Docker en AWS utilizando Terraform.
+
+http://3.86.82.115/
