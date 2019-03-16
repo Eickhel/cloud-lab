@@ -1,0 +1,20 @@
+# Docker handling
+docker images
+
+docker build -t cloud-lab .
+
+docker ps
+
+docker run -d -p 8888:8888 --rm --name cloud-lab cloud-lab
+
+docker exec -it cloud-lab node --version
+
+
+# Terraform
+terraform init
+
+export AWS_ACCESS_KEY_ID="<ACCES_KEY>"
+export AWS_SECRET_ACCESS_KEY="<SECRET_ACCESS_KEY>"
+terraform plan
+
+terraform apply
